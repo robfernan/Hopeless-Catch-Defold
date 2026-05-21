@@ -1,0 +1,15 @@
+function init(self)
+    -- Tell the engine this game object wants to receive active input frames
+    msg.post(".", "acquire_input_focus")
+end
+
+function on_input(self, action_id, action)
+    -- Capture our mouse click / screen touch trigger
+    if action_id == hash("touch") then
+        if action.pressed then
+            print("Line Cast! Target X: " .. action.x .. " Y: " .. action.y)
+        elseif action.released then
+            print("Reeling line back in!")
+        end
+    end
+end

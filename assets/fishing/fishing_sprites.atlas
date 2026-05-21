@@ -1,0 +1,43 @@
+images {
+  image: "/assets/bass.png"
+}
+images {
+  image: "/assets/bleeding_carp.png"
+}
+images {
+  image: "/assets/catfish.png"
+}
+images {
+  image: "/assets/cheese.png"
+}
+images {
+  image: "/assets/corn.png"
+}
+images {
+  image: "/assets/fishman.png"
+}
+images {
+  image: "/assets/golden_carp.png"
+}
+images {
+  image: "/assets/minnows.png"
+}
+images {
+  image: "/assets/pale_crawler.png"
+}
+images {
+  image: "/assets/player.png"
+}
+images {
+  image: "/assets/sunfish.png"
+}
+images {
+  image: "/assets/trout.png"
+}
+images {
+  image: "/assets/whispering_eel.png"
+}
+images {
+  image: "/assets/worms.png"
+}
+extrude_borders: 2

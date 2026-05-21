@@ -1,0 +1,66 @@
+{
+  :code {
+    :breakpoints [
+    ]
+  }
+  :workflow {
+    :open-tabs [
+      [
+        [
+          "/assets/fishing/fishing_sprites.atlas"
+          :scene
+        ]
+        [
+          "/input/game.input_binding"
+          :cljfx-form-view
+        ]
+        [
+          "/scripts/player_control.script"
+          :code
+        ]
+        [
+          "/scripts/player.gameobject.go"
+          :scene
+        ]
+        [
+          "/game.project"
+          :cljfx-form-view
+        ]
+      ]
+    ]
+    :recent-files [
+      [
+        "/scripts/player_control"
+        :code
+      ]
+      [
+        "/README.md"
+        :html
+      ]
+      [
+        "/assets/fishing/fishing_sprites.atlas"
+        :scene
+      ]
+      [
+        "/main/main.collection"
+        :scene
+      ]
+      [
+        "/input/game.input_binding"
+        :cljfx-form-view
+      ]
+      [
+        "/scripts/player_control.script"
+        :code
+      ]
+      [
+        "/scripts/player.gameobject.go"
+        :scene
+      ]
+      [
+        "/game.project"
+        :cljfx-form-view
+      ]
+    ]
+  }
+}
