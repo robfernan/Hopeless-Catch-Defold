@@ -1,30 +1,40 @@
-# Hopeless Catch (Defold Prototype)
+# Hopeless Catch
 
-An atmospheric, retro-inspired horror fishing game. Cast your line into murky, volatile waters, manage your tension, and see what pulls back from the deep abyss. This prototype transitions the original game mechanics into a cross-platform pipeline using the **Defold Game Engine**.
+*A peaceful fishing adventure with a subtle secret.*
 
----
-
-## 🛠️ Core Tech Stack & Setup
-* **Engine:** Defold Engine (v1.12.4)
-* **Language:** Native Lua
-* **Asset Pipeline:** Custom 2D Texture Atlases ($512 \times 256$ packed grids)
-* **Development Loop:** Visually staging layouts and compiling pipelines via the Defold Editor, script implementation and version control managed through VS Code.
+Unwind by the lake in this cozy pixel art fishing game. Cast your line, catch nine unique fish species, and discover what lurks in the tranquil waters after dark. This remake is built using the **Defold Game Engine**, focusing on atmospheric immersion and modular design.
 
 ---
 
-## 🎮 Current Implementation Status
+## 🌊 Gameplay Features
+
+* **Relaxing Atmosphere:** A tranquil lakeside retreat designed to help you unwind and find your rhythm.
+* **Dynamic World:** A living environment featuring a full day/night cycle and weather effects that subtly shift the mood and world state.
+* **Strategic Angling:** Master the waters using four unique bait types, each designed to attract different species.
+* **Catalog Your Progress:** Track your catches and history in your comprehensive Journal.
+
+---
+
+## 🐟 The Fish Species
+* **Daytime:** Sunfish, Bass, Trout, Catfish, Golden Carp
+* **Nighttime:** Pale Crawler, Bleeding Carp, Whispering Eel, Fishman
+
+---
+
+## 🛠️ Implementation Status
 
 * [x] **Repository & Source Control:** Live tracking via Git and GitHub.
-* [x] **Sprite Atlas Compilation:** Game assets (player entities, fish variants, fishing hooks) compressed into native runtime sheets.
-* [x] **Universal Input Layer:** Mapped engine mouse click and screen touch triggers to unified operational actions (`touch`).
-* [x] **Atmospheric Background Rendering:** Implemented a custom render script (`lake_render.render_script`) to shift hardware buffers to a muted, dark under-lake aesthetic.
-* [ ] **Dynamic Line Casting Mechanics:** (Next Up) Spawning physical bobber game objects at target coordinates via factory components and drawing dynamic vector lines.
-* [ ] **Underwater Ecosystem Engine:** Spawning moving entities (`bass`, `catfish`, `bleeding_carp`) using programmatic pathing and interpolation loops.
+* [x] **Sprite Atlas Compilation:** Game assets (player entities, fish variants) compressed into native runtime sheets.
+* [x] **Universal Input Layer:** Mapped engine mouse click/touch triggers to operational actions.
+* [x] **Atmospheric Background Rendering:** Implemented dual-tone horizon layering (sky/water) with proper Z-depth sorting.
+* [ ] **Dynamic Line Casting Mechanics:** Spawning physical bobber objects and rendering dynamic vector lines.
+* [ ] **Underwater Ecosystem Engine:** Spawning moving fish entities using programmatic pathing and interpolation.
+* [ ] **Day/Night & Weather System:** Implementing global environmental state shifts.
 
 ---
 
 ## 🚀 How to Run locally
 
-1. Clone this repository onto your machine:
+1. Clone this repository:
    ```bash
    git clone [https://github.com/robfernan/Hopeless-Catch-Defold.git](https://github.com/robfernan/Hopeless-Catch-Defold.git)
